@@ -37,7 +37,7 @@ export function NavBar() {
         setTopic(argument)
     }
     
-    let [icon, setIcon] = useState(value);
+    let [icon, setIcon] = useState(icons.Cyberpunk);
 
     const changeImage = (argument) => {
         setIcon(icons[argument])
