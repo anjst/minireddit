@@ -45,6 +45,7 @@ export function NavBar() {
 
     useEffect(() => {
         setTopic(value)
+        setIcon(icons[value])
     },[value])
 
 
