@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState} from 'react';
 import './navbar.css'
 import { SearchBar } from '../searchbar/sarchbar'
 import { SubReddit } from '../subreddit/subreddit'
@@ -17,16 +17,17 @@ import { useSelector } from 'react-redux'
 
 export function NavBar() {
 
-    const icons = {
-        aww: aww,
-        funny: funny,
-        Games: games,
-        technology: technology,
-        rickandmorty: ricknmorty,
-        hacking: hacking,
-        Cyberpunk: cyberpunk,
-        searchReddit: reddit,
-    }
+        const icons = {
+            aww: aww,
+            funny: funny,
+            Games: games,
+            technology: technology,
+            rickandmorty: ricknmorty,
+            hacking: hacking,
+            Cyberpunk: cyberpunk,
+            searchReddit: reddit,
+        }
+    
 
     const value = useSelector(state => state.subreddit);
 
@@ -44,8 +45,9 @@ export function NavBar() {
 
     useEffect(() => {
         setTopic(value)
-        setIcon(icons[value])
-    }, [value])
+    },[value])
+
+
 
    
 
