@@ -1,0 +1,103 @@
+.post {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.containers {
+    display: flex;
+    justify-content: center;
+    flex-wrap: column wrap;
+    align-items: top;
+    border-color: #dddada;
+    border-radius: 25px;
+    background-color:white;
+
+
+}
+
+.voter {
+    padding-right: 15px;
+    padding-left: 10px;
+    justify-content: center;
+    text-align: center;
+    margin: 0px;
+    background: white ;
+    border-radius: 50px;
+}
+
+.post-content {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 500px;
+}
+
+.post-content img {
+    max-width: 100%;
+}
+
+.post-content li {
+    display: block;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-top: 10px;
+    color: gray;
+    font-size: 12px;
+}
+
+.post-content h3 {
+    display: block;
+    width:100%;
+}
+
+.voter img {
+    width: 25px;
+    height: auto;    
+}
+
+.voter p {
+    margin: 0px;
+}
+
+h3 {
+    padding: 10px 10px;
+    margin:0;
+    text-align: center;
+}
+
+.arrow {
+    width: 12px;
+    height: 15px;
+    margin: 0px;
+    padding: 5px 0px;
+}
+
+.imagetwo {
+    height: 35px;
+    padding-top: 8px;
+}
+
+.comments {
+    padding-left: 10px;
+}
+
+
+video {
+    width: 100%;
+}
+
+#image {
+    width:100%;
+    outline: none;
+    max-height: 600px;
+}
+
+.parentLink {
+    overflow: hidden;  
+    width: 100%;
+}
+
+.childLink {
+    overflow: hidden;
+}

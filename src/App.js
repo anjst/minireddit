@@ -1,23 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import { NavBar } from "./components/navbar/navbar"
+import { SpecificFeed } from "./components/feed/specificFeed"
+import { SearchFeed } from "./components/feed/searchFeed"
+
+import { Route, Switch } from 'react-router-dom'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <NavBar />
+      <Switch>
+        <Route path="/" exact component={SpecificFeed} />
+        <Route path="/r/:id" exact component={SpecificFeed} />
+        <Route path="/search/:searchResult" exact component={SearchFeed} />
+      </Switch>
     </div>
   );
 }
