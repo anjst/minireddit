@@ -1,27 +1,27 @@
 .feed {
-    display: flex;
-    flex-flow: wrap;
-    justify-content: center;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
 }
 
 .parentLoading {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 .loadingImage {
-        margin-top: 100px;
-        pointer-events: none;
-        width: 2.5em;
-        height: 2.5em;
-        border: 0.4em solid transparent;
-        border-color: #eee;
-        border-top-color: #3E67EC;
-        border-radius: 50%;
-        animation: loadingspin 1s linear infinite;
-    }
+  margin-top: 100px;
+  pointer-events: none;
+  width: 2.5em;
+  height: 2.5em;
+  border: 0.4em solid transparent;
+  border-color: #eee;
+  border-top-color: #3e67ec;
+  border-radius: 50%;
+  animation: loadingspin 1s linear infinite;
+}
 
 @keyframes loadingspin {
-        100% {
-                transform: rotate(360deg)
-        }
-    }
+  100% {
+    transform: rotate(360deg);
+  }
+}

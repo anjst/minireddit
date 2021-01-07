@@ -1,9 +1,9 @@
-import './App.css';
-import { NavBar } from "./components/navbar/navbar"
-import { SpecificFeed } from "./components/feed/specificFeed"
-import { SearchFeed } from "./components/feed/searchFeed"
+import "./App.css";
+import { NavBar } from "./components/navbar/navbar";
+import { SpecificFeed } from "./components/feed/specificFeed";
+import { SearchFeed } from "./components/feed/searchFeed";
 
-import { Route, Switch } from 'react-router-dom'
+import { Route, Switch } from "react-router-dom";
 
 function App() {
   return (

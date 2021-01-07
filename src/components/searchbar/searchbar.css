@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
-body{
+body {
   background: #f2f2f2;
 }
 input {
@@ -23,7 +23,6 @@ button {
   border-radius: 0px;
   width: 31px;
   margin-top: 4px;
-
 }
 
 #searchImage {
